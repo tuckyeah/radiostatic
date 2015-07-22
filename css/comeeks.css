@@ -252,3 +252,8 @@ td p {
     background-image: url('../imgs/table.jpg');
     background-size: cover;
 }
+
+#nightsky {
+    background-image: url('../imgs/nightsky.jpg');
+    background-size: contain;
+}
