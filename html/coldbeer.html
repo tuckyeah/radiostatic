@@ -23,31 +23,38 @@
             <p class="fadeIn ">In the desert, those lights cast such a glow that they beat out the moon, the stars - nothing else can be seen.</p>
         </div>
 
-        <div class="section-1 ">
+        <div class="section-1">
+            <p class="fadeIn sign" style="text-align: center; margin-top: 150px; font-size: 40px;">Nothing besides that <span id="candy" style="color: pink; font-weight: 600"> cotton candy.</span>
+            </p>
 
-            <div class="fadeIn ">
-                <div class="neontubing ">
-                    <h1>C<span>
+
+            <div class="neontubing">
+                <h1>C<span>
                         <a href="june/june-1.html">O</a>
                         </span>LD</h1>
-                    <h1>BEER</h1>
-                </div>
-
-                <br />
-                <br />
-                <p style="text-align: center;">Nothing besides that cotton candy.
-                </p>
-
-
-
+                <h1>BEER</h1>
             </div>
 
 
+            <br />
+            <br />
         </div>
-
 
     </div>
 
+
+
+
+    <script>
+        $(document).ready(function () {
+
+            $('#candy').on('click', function () {
+                $('.sign').fadeOut('slow', function () {
+                    $('.neontubing').fadeIn('slow');
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>

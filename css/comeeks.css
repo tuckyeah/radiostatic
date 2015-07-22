@@ -216,10 +216,12 @@ td p {
     font-weight: 800;
     color: #BD4932;
     text-shadow: 1px 2px rgba(72, 72, 72, 0.8);
+    text-decoration: underline;
 }
 
 .next:hover {
     color: #105B63;
+    text-decoration: none;
 }
 
 .next a:hover {
@@ -240,4 +242,13 @@ td p {
 
 .prev:hover {
     color: #105B63;
+}
+
+#insideBar {
+    background-image: url('../imgs/bar2.jpg');
+    background-size: cover;
+}
+#table {
+    background-image: url('../imgs/table.jpg');
+    background-size: cover;
 }

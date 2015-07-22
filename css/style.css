@@ -158,12 +158,13 @@ table td p:nth-child(2) {
 
 #linkBox {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid black;
     width: 10%;
     margin: auto;
     background-color: #E6E6E6;
     margin-top: 20px;
+    border-radius: 5px;
 }
 
 .transcript {
@@ -246,6 +247,11 @@ table td p:nth-child(2) {
     color: #FFF;
     text-shadow: 0 0 3px #B8E6B8, 0 0 5px #B2FFFF, 0 0 10px #E6FFE6;
     font-weight: 800;
+}
+
+.whiteGlow a:hover {
+    text-decoration: none;
+    font-style: italic;
 }
 
 .whiteGlow a:hover {
@@ -740,6 +746,7 @@ h3 {
 /*neon tubing*/
 
 .neontubing {
+    display: none;
     padding: 6rem;
     text-align: center;
     color: rgba(249, 200, 255, 0.8);
@@ -818,4 +825,12 @@ h3 {
     100% {
         text-shadow: 0 0 30px rgba(255, 0, 84, 0.6), 0 0 60px rgba(255, 0, 84, 0.4), 0 0 100px rgba(255, 0, 84, 0.2), 0 0 90px rgba(255, 0, 84, 0.8);
     }
+}
+
+#candy:hover {
+    font-style: italic;
+}
+
+#letter .section-1 {
+    margin-top: 150px;
 }
