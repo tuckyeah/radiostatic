@@ -393,6 +393,7 @@ table td p:nth-child(2) {
     height: 100vh;
     position: absolute;
     z-index: 1;
+    background-color: black;
 }
 
 #bottomLeft {
@@ -835,4 +836,36 @@ h3 {
     margin-top: 150px;
 }
 
+.letterpress h3 {
+    text-shadow: 0px 1px 1px #4d4d4d;
+    color: #222;
+    font: 80px 'LeagueGothicRegular';
+}
 
+.letterpress {
+    text-shadow: 0px 1px 1px #686868;
+    color: #434343;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 800;
+}
+
+#grayBox {
+    background-color: #C0C0C0;
+    margin: 200px auto auto;
+    border: 1px solid black;
+    width: auto;
+    height: 80%;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+.charlieHead {
+    font-size: 70px;
+    text-shadow: 1px 1px 1px #4d4d4d;
+    font-family: 'Nunito';
+    font-weight: 700;
+    letter-spacing: 15px;
+    padding: 20px;
+    color: #222;
+}

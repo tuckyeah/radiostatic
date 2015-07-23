@@ -1,0 +1,282 @@
+body, html {
+    background-color: #000;
+    height: 100%;
+    min-height: 100%;
+
+}
+
+main {
+	font-family: 'Roboto Slab', serif;   
+    color: white;
+    font-size: 21px;
+    text-shadow: 2px 2px 1px rgba(54, 54, 54, 0.75);
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+    font-style: italic;
+}
+
+.bcg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#sunset.bcg {
+    background-image: url('../imgs/sunset.jpg');
+    background-attachment: fixed;
+    height: auto;
+    min-height: 800px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Need to change this class on num2crush.html
+
+#slide-2.bcg {
+    position: absolute;
+    top: 0;
+    left: 0;
+	background-color: rgb(0,0,0);
+	min-height: 800px;
+}*/
+
+/*wakeup.html ids*/
+
+    #bcg-1-door.bcg {
+        background-image: url('../imgs/doorknob.jpg');
+        min-height: 1000px;
+    }
+
+    #bcg-2-black.bcg {
+        background: none;
+        background-color: rgb(0,0,0); 
+        height: 310px; 
+        border: 2px solid rgb(0, 0, 0);
+    }
+
+    #bcg-3-window.bcg {
+        background-image: url('../imgs/window.JPG');
+        min-height: 1000px;
+    }
+
+    #bcg-4-black.bcg {
+        background: none;
+        background-color: rgb(0,0,0); 
+        height: 310px; 
+        border: 2px solid rgb(0, 0, 0);
+    }
+
+    #bcg-5-bed.bcg {
+        background-image: url('../imgs/unmade_bed.jpg');
+        min-height: 1200px;
+    }
+
+    #bcg-6-black.bcg {
+        background: none;
+        background-color: rgb(0,0,0); 
+        height: 310px; 
+        border: 2px solid rgb(0, 0, 0);
+    }
+
+/*luckyduck.html ids*/
+    #full-background {
+        background-image: url('../imgs/mountains.JPG');
+        background-attachment: fixed;
+        background-position: 10% 0%;
+        background-size: 120% 100%;
+        height: inherit;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+/*missing.html ids*/
+    #constellation {
+        background-image: url('../imgs/constellation.jpg');
+        background-attachment: fixed;
+        height: inherit;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+/*CONTAINER*/
+.container {
+	width: 800px;
+	height: 500px;
+    position: relative;
+    margin: 100px auto;
+    display: block;
+    /*TODO*/
+/*    border: 1px solid black;*/
+}
+
+/*no2crush.html ids*/
+
+    .container#lil-1 {
+        height: 900px;
+    }
+
+    .container#lil-2 {
+        height: 900px;
+    }
+
+    .container#lil-3 {
+        margin-top: 200px;
+        height: 900px;
+    }
+
+    .container#lil-4 {
+        height: 800px;
+    }
+
+    /*wakeup.html ids*/
+
+    .container#container-1 {
+        margin-top: 500px;
+    }
+
+    .container#container-2 {
+        margin-top: 50px;
+        height: 200px;
+    }
+
+    .container#container-3 {
+        margin-top: 500px;
+    }
+
+    .container#container-4 {
+        height: 200px;
+    }
+
+    .container#container-5 {
+        margin-top: 200px;
+    }
+
+    .container#container-inner {
+        margin-top: 400px;
+        height: 1200px;
+        position: relative;
+        border: 1px solid black;
+    }
+
+
+
+.bigText {
+	position: absolute;
+}
+
+	h1 {
+    	font-size: 72px;
+    	text-align: center;
+    	text-decoration: none;
+    	font-weight: 800;
+	}
+
+.fixedText {
+	height: 200px;
+	width: 700px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -350px;
+}
+
+    .fixedText h2 {
+    	font-size: 50px;
+    	text-align: center;
+        text-decoration: none;
+        font-weight: 800;
+    }
+
+     .fixedText p {
+        width: 500px;
+        background-color: rgba(62, 64, 69, 0.3);
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin-left: 90px;
+    }
+.fixedText
+    #lower {
+        top: 200px;
+    }
+
+    .fixedText#higher {
+        margin-top: -250px;
+
+    }
+
+
+.littleText {
+    min-height: 200px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+
+}
+	.littleText p {
+		width: 500px;
+		background-color: rgba(62, 64, 69, 0.3);
+		padding: 5px 10px;
+		border-radius: 5px;
+		margin-left: -250px;
+	}
+
+    .littleText h1 {
+        width: 500px;
+        margin-left: -250px;
+    }
+
+	.littleText h2 {
+		font-size: 36px;
+		text-decoration: none;
+        width: 500px;
+        margin-left: -250px;
+        text-align: center;
+	}
+
+    #test.littleText {
+        position: relative;
+    }
+
+
+#offset {
+    position: fixed;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px 0;
+    z-index: 9999;
+}
+
+.scrollText {
+    width: 500px;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 8%;
+    text-align: center;
+
+}
+        .scrollText p {
+        background-color: rgba(62, 64, 69, 0.3);
+        padding: 5px 10px;
+        border-radius: 5px;
+    }

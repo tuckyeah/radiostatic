@@ -85,6 +85,21 @@ td p {
 }
 /*--------------------BACKGROUNDS-------------------------*/
 
+.wrapper {
+    width: inherit;
+    height: inherit;
+    background-color: black;
+}
+
+.star {
+    background-color: white;
+    height: 3px;
+    width: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1000;
+}
+
 #mountains {
     background-image: url(imgs/mountains.JPG);
 }
@@ -248,6 +263,7 @@ td p {
     background-image: url('../imgs/bar2.jpg');
     background-size: cover;
 }
+
 #table {
     background-image: url('../imgs/table.jpg');
     background-size: cover;
@@ -256,4 +272,16 @@ td p {
 #nightsky {
     background-image: url('../imgs/nightsky.jpg');
     background-size: contain;
+}
+
+#sunrise {
+    background-image: url('../imgs/sunrise.jpg');
+    background-size: cover;
+}
+
+.rightAlign {}
+
+#papers {
+    background-image: url('../imgs/letters.jpg');
+    background-size: cover;
 }
