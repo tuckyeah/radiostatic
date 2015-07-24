@@ -1,0 +1,56 @@
+body {
+    background-image: url('../imgs/sunset.jpg');
+    background-size: cover;
+    height: 100%;
+    min-height: 100%;
+}
+
+.content {
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 21px;
+    text-shadow: 2px 2px 1px rgba(54, 54, 54, 0.75);
+    width: 600px;
+    margin: 100px auto;
+    text-align: justify;
+    height: auto;
+}
+
+.content p {
+    background-color: rgba(62, 64, 69, 0.3);
+    padding: 20px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+    font-style: italic;
+}
+
+.content h1 {
+    font-size: 72px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.charlieHead {
+    font-size: 70px;
+    font-family: 'Nunito';
+    font-weight: 700;
+    letter-spacing: 15px;
+    padding: 20px;
+    color: rgba(76, 76, 76, 0.2);
+    text-shadow: 1px 1px 1px rgba(240, 240, 240, 0.4), 0px -2px 1px rgba(108, 108, 108, 0.3);
+}
+
+.header {
+    text-align: center;
+}
+.extraWide {
+    width: 800px;
+}
