@@ -1,8 +1,18 @@
 body {
+    overflow: hidden;
+}
+
+.sunset {
     background-image: url('../imgs/sunset.jpg');
     background-size: cover;
     height: 100%;
     min-height: 100%;
+}
+
+.nightRoad {
+    background-image: url('../imgs/nightroad1.jpg');
+    background-size: cover;
+    height: 100%;
 }
 
 .content {
@@ -11,9 +21,14 @@ body {
     font-size: 21px;
     text-shadow: 2px 2px 1px rgba(54, 54, 54, 0.75);
     width: 600px;
-    margin: 100px auto;
+    margin: auto;
     text-align: justify;
     height: auto;
+    line-height: 30px;
+}
+
+.content.lower {
+    margin: 100px auto;
 }
 
 .content p {
@@ -36,6 +51,22 @@ a:hover {
     text-align: center;
     text-decoration: none;
     font-weight: 800;
+    line-height: normal;
+}
+
+.content h2 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 10px;
+    line-height: normal;
+}
+
+.content h3 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800px;
+    line-height: 60px;
 }
 
 .charlieHead {
@@ -51,6 +82,24 @@ a:hover {
 .header {
     text-align: center;
 }
+
 .extraWide {
     width: 800px;
+}
+
+.fadeIn {
+    cursor: pointer;
+}
+/*vertical align*/
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
 }
