@@ -100,22 +100,9 @@ td p {
     z-index: 1000;
 }
 
-#mountains {
-    background-image: url(imgs/mountains.JPG);
-}
-
 #desert {
     background-image: url('../imgs/desert.jpg');
     background-size: cover;
-}
-
-#internet {
-    background-image: url(imgs/internet.jpg);
-    background-size: cover;
-}
-
-#clouds {
-    background-image: url(imgs/cloud.jpg);
 }
 
 #satellites {
@@ -153,16 +140,6 @@ td p {
     background-size: cover;
 }
 
-#bar {
-    background-image: url(imgs/bar2.jpg);
-    background-size: cover;
-}
-
-#lights {
-    background-image: url(imgs/xmaslights.jpg);
-    background-size: cover;
-}
-
 #night {
     background-image: url('../imgs/tent_night.jpg');
     background-size: cover;
@@ -173,6 +150,42 @@ td p {
     background-image: url('../imgs/papertext.jpg');
     background-size: cover;
     background-position: bottom;
+}
+
+#insideBar {
+    background-image: url('../imgs/bar2.jpg');
+    background-size: cover;
+}
+
+#table {
+    background-image: url('../imgs/table.jpg');
+    background-size: cover;
+}
+
+#nightsky {
+    background-image: url('../imgs/nightsky.jpg');
+    background-size: contain;
+}
+
+#sunrise {
+    background-image: url('../imgs/sunrise.jpg');
+    background-size: cover;
+}
+
+#papers {
+    background-image: url('../imgs/letters.jpg');
+    background-size: cover;
+}
+
+#mountains {
+    background-image: url('../imgs/mountains.jpg');
+    background-size: cover;
+}
+
+#satellites-2 {
+    background-image: url('../imgs/nightsatellites2.jpg');
+    background-size: cover;
+    background-position: center;
 }
 /*--------------------NAVIGATION----------------------*/
 
@@ -257,31 +270,4 @@ td p {
 
 .prev:hover {
     color: #105B63;
-}
-
-#insideBar {
-    background-image: url('../imgs/bar2.jpg');
-    background-size: cover;
-}
-
-#table {
-    background-image: url('../imgs/table.jpg');
-    background-size: cover;
-}
-
-#nightsky {
-    background-image: url('../imgs/nightsky.jpg');
-    background-size: contain;
-}
-
-#sunrise {
-    background-image: url('../imgs/sunrise.jpg');
-    background-size: cover;
-}
-
-.rightAlign {}
-
-#papers {
-    background-image: url('../imgs/letters.jpg');
-    background-size: cover;
 }

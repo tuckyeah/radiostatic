@@ -1,0 +1,114 @@
+a {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
+    font-weight: inherit;
+    text-decoration: underline;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+main {
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section.module:last-child {
+    margin-bottom: 0;
+}
+
+section.module:first-child {
+    margin-top: 300px;
+}
+
+section.module p:last-child {
+    margin-bottom: 0;
+}
+
+section.module {
+    background-color: black;
+}
+
+section.module.content {
+    padding: 40px;
+    background-color: black;
+    height: auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 21px;
+    text-shadow: 2px 2px 1px rgba(54, 54, 54, 0.75);
+    text-align: justify;
+}
+
+section.module.parallax {
+    height: 800px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+}
+
+section.module.parallax h1 {
+    text-align: center;
+    color: white;
+    line-height: 800px;
+    font-size: 80px;
+    text-shadow: 0 0 5px #B8E6B8, 0 0 10px #B2FFFF, 0 0 15px #E6FFE6;
+}
+
+section.module.parallax-1 {
+    background-image: url("../imgs/nightroad3.jpg");
+}
+
+section.module.parallax-2 {
+    background-image: url("../imgs/cabin.jpg");
+    background-size: cover;
+}
+
+section.module.parallax-3 {
+    background-image: url("../imgs/constellation.jpg");
+    background-size: cover;
+}
+
+section.module.parallax-4 {
+    background-color: black;
+    background-size: cover;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+section.module.parallax h1 {
+    font-size: 72px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 800;
+    line-height: normal;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    text-shadow: 2px 2px 1px rgba(54, 54, 54, 0.75);
+}

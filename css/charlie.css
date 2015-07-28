@@ -1,5 +1,6 @@
 body {
     overflow: hidden;
+    background-color: #2E2E2E;
 }
 
 .sunset {
@@ -32,7 +33,7 @@ body {
 }
 
 .content p {
-    background-color: rgba(62, 64, 69, 0.3);
+    background-color: rgba(46, 46, 46, 0.4);
     padding: 20px;
 }
 
@@ -102,4 +103,25 @@ a:hover {
 .middle {
     display: table-cell;
     vertical-align: middle;
+}
+
+.imgBox {
+    border: 1px solid grey;
+    margin: auto;
+    padding: 1px;
+    background-image: url('../imgs/doorknob.jpg');
+    background-size: cover;
+    height: 400px;
+}
+
+.bcg-bed {
+    background-image: url('../imgs/unmade_bed.jpg');
+    background-size: cover;
+    height: 600px;
+}
+
+.bcg-bed p {
+    background-color: rgba(46, 46, 46, 0.4);
+    padding: 20px;
+    margin: 30px auto;
 }
