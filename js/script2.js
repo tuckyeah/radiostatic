@@ -1,6 +1,6 @@
 function randomPosition() {
-    var h = $(window).height() - 15;
-    var w = $(window).width() - 15;
+    var h = $(window).height() - 10;
+    var w = $(window).width() - 10;
 
     var newHeight = Math.floor(Math.random() * h);
     var newWidth = Math.floor(Math.random() * w);
@@ -21,7 +21,7 @@ function checkColor() {
 }
 
 function addStars() {
-    var starLimit = 30;
+    var starLimit = 40;
 
     for (var i = 0; i <= starLimit; i++) {
         $('.wrapper').append($('<div/>', {
@@ -54,18 +54,18 @@ $(document).ready(function () {
             //if so, fadeOut that section, increment n, fade in first fadeIn of next section   
             $('.section-' + n + ':not(:last-child)').fadeOut('slow', function () {
                 n += 1;
-                $('.section-' + n).find('.fadeIn:first').fadeIn('slow', function () {
-                    if ($('.section-' + n).hasClass('complete')) {
-                        $('.preWrapper').addClass('wrapper');
-                        $('.header').hide();
-                        addStars();
-                    }
-                });
-                checkColor();
+                if ($('.section-' + n).hasClass('complete')) {
+                    $('.preWrapper').addClass('wrapper');
+                    $('.header').hide();
+                    addStars();
+                }
+                $('.section-' + n).find('.fadeIn:first').fadeIn('slow')
             });
+            checkColor();
             //if not, fade in next hidden fadeIn element
         } else {
             $('.section-' + n).find('.fadeIn:hidden:first').fadeIn('slow', function () {
+
                 $("html, body").animate({
                     scrollTop: $("body")[0].scrollHeight
                 }, 1000);

@@ -1,13 +1,12 @@
 a {
-    color: inherit;
+    color: white;
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover {
     color: inherit;
     font-weight: inherit;
-    text-decoration: underline;
 }
 
 body {
@@ -56,7 +55,7 @@ section.module.content {
 }
 
 section.module.parallax {
-    height: 800px;
+    height: 600px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;

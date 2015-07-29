@@ -55,7 +55,7 @@ section.module.content {
 }
 
 section.module.parallax {
-    height: 800px;
+    height: 600px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -101,7 +101,5 @@ section.module.parallax h2 {
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red;
-
-
+    text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red;
 }

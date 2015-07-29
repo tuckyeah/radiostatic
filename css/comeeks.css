@@ -271,3 +271,8 @@ td p {
 .prev:hover {
     color: #105B63;
 }
+.desert-3 {
+    background-image: url('../imgs/desert_3.JPG');
+    background-size: cover;
+    background-position: bottom;
+}
