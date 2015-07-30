@@ -16,11 +16,23 @@ body {
     height: 100%;
 }
 
+.stars {
+    background-image: url('../imgs/constellation.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
+.satellites {
+    background-image: url('../imgs/nightsatellites2.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 100%;
+}
+
 .content {
     font-family: 'Roboto Slab', serif;
     color: white;
     font-size: 21px;
-    text-shadow: 2px 2px 1px rgba(54, 54, 54, 0.75);
     width: 600px;
     margin: auto;
     text-align: justify;
@@ -33,8 +45,9 @@ body {
 }
 
 .content p {
-    background-color: rgba(46, 46, 46, 0.4);
+    background-color: rgba(46, 46, 46, 0.25);
     padding: 20px;
+    text-shadow: 1px 2px 1px rgba(25, 25, 25, 0.6);
 }
 
 a {
@@ -44,7 +57,6 @@ a {
 
 a:hover {
     color: inherit;
-    font-style: italic;
     text-decoration: none;
     text-shadow: none;
     opacity: 1;
@@ -56,6 +68,7 @@ a:hover {
     text-decoration: none;
     font-weight: 800;
     line-height: normal;
+    text-shadow: 2px 3px 1px rgba(30, 30, 30, 0.5);
 }
 
 .content h2 {
@@ -64,13 +77,22 @@ a:hover {
     font-weight: 800;
     margin-top: 10px;
     line-height: normal;
+    text-shadow: 2px 3px 1px rgba(30, 30, 30, 0.5);
 }
 
 .content h3 {
     font-size: 40px;
     text-align: center;
-    font-weight: 800px;
+    font-weight: 800;
     line-height: 60px;
+    text-shadow: 2px 3px 1px rgba(30, 30, 30, 0.5);
+}
+
+.content h4 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 800;
+    text-shadow: 2px 3px 1px rgba(30, 30, 30, 0.5);
 }
 
 .charlieHead {
@@ -111,34 +133,53 @@ a:hover {
 .imgBox {
     margin: auto;
     padding: 1px;
+    border-radius: 5px;
     background-image: url('../imgs/doorknob.jpg');
     background-size: cover;
     height: 400px;
     box-shadow: 0px 0px 20px #1C1C1C;
-    border-radius: 5px;
 }
 
-.bcg-bed {
-    background-image: url('../imgs/unmade_bed.jpg');
+.bcg {
     background-size: cover;
-    height: 600px;
     box-shadow: 0px 0px 20px #1C1C1C;
     border-radius: 5px;
 }
 
-.bcg-road {
-    background-image: url('../imgs/nightroad2.jpg');
-    background-size: cover;
-    background-position: bottom;
-    height: 400px;
-    box-shadow: 0px 0px 20px #1C1C1C;
-    border-radius: 5px;
-}
-
-.bcg-bed p {
+.bcg p {
     background-color: rgba(46, 46, 46, 0.4);
     padding: 20px;
     margin: 30px auto;
+}
+
+.bcg#bed {
+    height: 600px;
+    background-image: url('../imgs/unmade_bed.jpg');
+}
+
+.bcg#road {
+    background-image: url('../imgs/nightroad2.jpg');
+    background-position: bottom;
+    height: 400px;
+}
+
+.bcg#desertRoad {
+    background-image: url('../imgs/desert.jpg');
+    height: 500px;
+}
+
+.bcg#radio {
+    background-image: url('../imgs/radio-3.jpg');
+    box-shadow: 0px 0px 120px rgba(255, 255, 153, 0.8);
+    background-position: 0px -75px;
+    height: 200px;
+    width: 500px;
+}
+
+.bcg#nightsky {
+    background-image: url('../imgs/nightdesert.jpg');
+    background-position: top;
+    height: 500px;
 }
 
 .transcript {
@@ -187,6 +228,37 @@ a:hover {
 }
 
 .shadowed {
-    color: rgba(230,230,230, 0.8);
-    text-shadow: 0px 0px 10px rgba(255,255,255, 0.9), 0px 0px 30px rgba(255,255,255, 0.7), 0px 0px 50px rgba(255,255,255 0.3), 0px 0px 180px rgba(255, 255,255, 0.3);
+    color: rgba(230, 230, 230, 0.8);
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.9), 0px 0px 30px rgba(255, 255, 255, 0.7), 0px 0px 50px rgba(255, 255, 255 0.3), 0px 0px 180px rgba(255, 255, 255, 0.3);
+}
+
+#theBar {
+    background-image: url('../imgs/airstream.jpg');
+    height: 500px;
+    background-position: center;
+}
+
+.preWrapper {
+    z-index: -1;
+}
+
+.star {
+    background-color: white;
+    box-shadow: 0 0 3px #B8E6B8, 0 0 5px #B2FFFF, 0 0 10px #E6FFE6;
+    height: 5px;
+    width: 5px;
+    margin: 10px;
+    display: none;
+    position: absolute;
+}
+
+.wrapper {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    z-index: 1;
+}
+
+.heavyShadow {
+    text-shadow: 4px 4px 0px rgba(20, 20, 20, 0.8), 5px 5px 5px rgba(0, 0, 0, 0.6)
 }
