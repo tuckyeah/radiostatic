@@ -38,6 +38,10 @@ table.main {
     box-shadow: 5px 5px 0px 0px rgba(72, 72, 72, 0.8);
 }
 
+table.main.black td {
+    border: 10px solid black;
+}
+
 td {
     width: 400px;
     height: 500px;
@@ -85,27 +89,12 @@ td p {
 }
 /*--------------------BACKGROUNDS-------------------------*/
 
-.wrapper {
-    width: inherit;
-    height: inherit;
-    background-color: black;
-}
-
-.star {
-    background-color: white;
-    height: 3px;
-    width: 3px;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 1000;
-}
-
 #desert {
     background-image: url('../imgs/desert.jpg');
     background-size: cover;
 }
 
-#satellites {
+#satellites-2 {
     background-image: url('../imgs/desert_2.jpg');
     background-size: cover;
 }
@@ -187,16 +176,30 @@ td p {
     background-size: cover;
     background-position: center;
 }
+
+.desert#one {
+    background-image: url('../imgs/desert_2.jpg');
+    background-size: cover;
+}
+
+.desert#two {
+    background-image: url('../imgs/desert_3.JPG');
+    background-size: cover;
+}
+
+.desert#three {
+    background-image: url('../imgs/satellites5.jpg');
+    background-size: cover;
+}
+}
 /*--------------------NAVIGATION----------------------*/
 
 .slide {
     display: none;
 }
-
 .active-slide {
     display: block;
 }
-
 .naviContainer {
     margin: auto;
     width: 75%;
@@ -204,21 +207,18 @@ td p {
     text-align: center;
     margin-top: 20px;
 }
-
 .boxes {
     list-style: none;
     display: inline-block;
     padding-left: 0;
     margin-bottom: 0;
 }
-
 .boxes li {
     display: inline;
     font-size: 15px;
     margin-right: 5px;
     cursor: pointer;
 }
-
 .boxButton {
     margin: 5px;
     height: 20px;
@@ -227,15 +227,12 @@ td p {
     display: inline-block;
     box-shadow: 5px 5px 0px 0px rgba(72, 72, 72, 0.8);
 }
-
 .boxButton:hover {
     border: 4px solid #BD4932;
 }
-
 .active-dot .boxButton {
     border: 4px solid #105B63;
 }
-
 .next {
     display: inline-block;
     margin: 10px;
@@ -246,18 +243,15 @@ td p {
     text-shadow: 1px 2px rgba(72, 72, 72, 0.8);
     text-decoration: underline;
 }
-
 .next:hover {
     color: #105B63;
     text-decoration: none;
 }
-
 .next a:hover {
     color: #105B63;
     font-style: normal;
     font-weight: 100;
 }
-
 .prev {
     display: inline-block;
     margin: 10px;
@@ -267,12 +261,6 @@ td p {
     color: #BD4932;
     text-shadow: 1px 2px rgba(72, 72, 72, 0.8);
 }
-
 .prev:hover {
     color: #105B63;
-}
-.desert-3 {
-    background-image: url('../imgs/desert_3.JPG');
-    background-size: cover;
-    background-position: bottom;
 }

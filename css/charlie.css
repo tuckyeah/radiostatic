@@ -170,10 +170,19 @@ a:hover {
 
 .bcg#radio {
     background-image: url('../imgs/radio-3.jpg');
-    box-shadow: 0px 0px 120px rgba(255, 255, 153, 0.8);
+
     background-position: 0px -75px;
     height: 200px;
     width: 500px;
+    z-index: 1000;
+    opacity: 0.8;
+    border: 3px solid;
+}
+
+.bcg#radio:hover {
+        box-shadow: 0px 0px 120px rgba(255, 255, 153, 0.7);
+    border: 1px solid;
+    opacity: 1;
 }
 
 .bcg#nightsky {
@@ -256,7 +265,7 @@ a:hover {
     width: 90%;
     height: 90%;
     position: absolute;
-    z-index: 1;
+    z-index: -1;
 }
 
 .heavyShadow {
