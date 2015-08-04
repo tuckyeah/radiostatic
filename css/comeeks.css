@@ -18,6 +18,10 @@ body {
     color: #FFFAD5;
     text-shadow: 2px 2px rgba(72, 72, 72, 0.6);
 }
+
+.black.header h1 {
+    color: black;
+}
 /*--------------------COMIC PARENT TABLE--------------------*/
 
 .comicContainer {
@@ -38,6 +42,10 @@ table.main {
     box-shadow: 5px 5px 0px 0px rgba(72, 72, 72, 0.8);
 }
 
+table.main.black {
+    box-shadow: none;
+}
+
 table.main.black td {
     border: 10px solid black;
 }
@@ -51,6 +59,27 @@ td {
 td p {
     width: 70%;
     margin: auto;
+}
+
+td h3 {
+    text-align: center;
+    font-size: 120px;
+    color: white;
+    font-family: 'Roboto Slab';
+    text-shadow: 1px 2px 1px rgba(25, 25, 25, 0.6);
+    padding: 0;
+}
+
+td a {
+    text-decoration: underline;
+    font-style: normal;
+}
+
+td a:hover {
+    text-decoration: none;
+    color: inherit;
+    font-style: normal;
+    text-shadow: 0 0 3px #B8E6B8, 0 0 5px #B2FFFF, 0 0 10px #E6FFE6;
 }
 /*--------------------INNER TABLE ELEMENTS------------------*/
 
@@ -153,7 +182,8 @@ td p {
 
 #nightsky {
     background-image: url('../imgs/nightsky.jpg');
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
 }
 
 #sunrise {
@@ -171,8 +201,14 @@ td p {
     background-size: cover;
 }
 
-#satellites-2 {
+.satellites-2 {
     background-image: url('../imgs/nightsatellites2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.satellites-3 {
+    background-image: url('../imgs/satellites3.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -191,15 +227,16 @@ td p {
     background-image: url('../imgs/satellites5.jpg');
     background-size: cover;
 }
-}
 /*--------------------NAVIGATION----------------------*/
 
 .slide {
     display: none;
 }
+
 .active-slide {
     display: block;
 }
+
 .naviContainer {
     margin: auto;
     width: 75%;
@@ -207,18 +244,21 @@ td p {
     text-align: center;
     margin-top: 20px;
 }
+
 .boxes {
     list-style: none;
     display: inline-block;
     padding-left: 0;
     margin-bottom: 0;
 }
+
 .boxes li {
     display: inline;
     font-size: 15px;
     margin-right: 5px;
     cursor: pointer;
 }
+
 .boxButton {
     margin: 5px;
     height: 20px;
@@ -227,12 +267,27 @@ td p {
     display: inline-block;
     box-shadow: 5px 5px 0px 0px rgba(72, 72, 72, 0.8);
 }
+
+.black .boxButton {
+    border: 5px solid #666666;
+}
+
 .boxButton:hover {
     border: 4px solid #BD4932;
 }
+
+.black .boxButton:hover {
+    border: 4px solid white;
+}
+
 .active-dot .boxButton {
     border: 4px solid #105B63;
 }
+
+.black .active-dot .boxButton {
+    border: 4px solid white;
+}
+
 .next {
     display: inline-block;
     margin: 10px;
@@ -243,15 +298,27 @@ td p {
     text-shadow: 1px 2px rgba(72, 72, 72, 0.8);
     text-decoration: underline;
 }
+
+.black.next {
+    color: #666666;
+}
+
 .next:hover {
     color: #105B63;
     text-decoration: none;
 }
+
+.black.next a:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .next a:hover {
     color: #105B63;
     font-style: normal;
     font-weight: 100;
 }
+
 .prev {
     display: inline-block;
     margin: 10px;
@@ -261,6 +328,14 @@ td p {
     color: #BD4932;
     text-shadow: 1px 2px rgba(72, 72, 72, 0.8);
 }
+
 .prev:hover {
     color: #105B63;
+}
+
+.black p {
+    background-color: rgba(171, 171, 171, 0.7);
+    color: #333333;
+    border: 1px solid #333333;
+    font-family: 'Roboto Slab';
 }

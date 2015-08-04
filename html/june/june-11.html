@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>==JUNE==</title>
+    <link rel="stylesheet" href="../../css/comeeks.css">
+    <link rel="stylesheet" href="../../css/slideshow.css">
+    <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Roboto+Slab' rel='stylesheet' type='text/css' />
+
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+    <script src="../../js/slideshow.js"></script>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <div class="header">
+            <h1>June Variable</h1>
+        </div>
+
+    </div>
+    <main>
+        <div class="carousel">
+            <div class="mainContainer">
+                <section class="slide active-slide first">
+                    <div class="comicContainer">
+                        <table class="main june satellites-3">
+                            <td>
+                                <p>I am exhausted. I cannot think. I cannot bear to read these letters again, to try to divine any more meaning from them.</p>
+
+                            </td>
+                            <td>
+                                <p>There is nothing left.</p>
+                                <p>I have nothing left.</p>
+                            </td>
+                            <td>
+                                <p>Driven by that same otherworldly force, or like some poor insect infected by a fungus, I am compelled to climb upwards, up into the dish and wait for the night.</p>
+                                <p> I lie there and listen.</p>
+                            </td>
+                        </table>
+                    </div>
+                </section>
+
+                <section class="slide">
+                    <div class="comicContainer">
+                        <table class="main june black satellites-2">
+                            <td></td>
+                            <td>
+                                <h3>
+                                <a href="../june/june-10a.html">X
+                                    </a></h3>
+                            </td>
+                            <td></td>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="naviContainer">
+            <ul class="boxes">
+                <li class="active-dot">
+                    <div class="boxButton"></div>
+                </li>
+                <li>
+                    <div class="boxButton changeColor"></div>
+                </li>
+
+            </ul>
+            <br />
+        </div>
+    </main>
+
+    <script>
+        $(document).ready(function () {
+            $('.changeColor').click(function () {
+                $('body').animate({
+                    backgroundColor: "#000"
+                }, 'slow');
+                $('.boxes').addClass('black');
+                $('.header').addClass('black');
+            });
+        });
+    </script>
+</body>
+
+</html>
