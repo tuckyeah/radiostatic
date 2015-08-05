@@ -153,25 +153,41 @@ td a:hover {
     background-size: cover;
 }
 
+#airstream-2 {
+    background-image: url('../imgs/airstream-1.jpg');
+    background-size: cover;
+}
+
 #camper {
     background-image: url('../imgs/camper.jpg');
     background-size: cover;
 }
 
 #night {
-    background-image: url('../imgs/tent_night.jpg');
+    background-image: url('../imgs/CampingVan.jpg');
     background-size: cover;
     background-position: center;
 }
 
 #paper {
-    background-image: url('../imgs/papertext.jpg');
+    background-image: url('../imgs/paper2.jpg');
     background-size: cover;
-    background-position: bottom;
+    background-position: 0px -41px;
 }
 
 #insideBar {
     background-image: url('../imgs/bar2.jpg');
+    background-size: cover;
+}
+
+#lights {
+    background-image: url('../imgs/jukebox.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+#galaxy {
+    background-image: url('../imgs/stars-spin.jpg');
     background-size: cover;
 }
 
@@ -191,9 +207,10 @@ td a:hover {
     background-size: cover;
 }
 
-#papers {
-    background-image: url('../imgs/letters.jpg');
+#letters {
+    background-image: url('../imgs/airmail3.jpg');
     background-size: cover;
+    background-position: top;
 }
 
 #mountains {

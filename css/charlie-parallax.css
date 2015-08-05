@@ -70,6 +70,10 @@ section.module.parallax h1 {
     text-shadow: 0 0 5px #B8E6B8, 0 0 10px #B2FFFF, 0 0 15px #E6FFE6;
 }
 
+section.module.parallax-0 {
+    height: 270px;
+}
+
 section.module.parallax-1 {
     background-image: url("../imgs/nightroad3.jpg");
 }
@@ -110,4 +114,19 @@ section.module.parallax h1 {
     font-family: 'Roboto Slab', serif;
     color: white;
     text-shadow: 2px 2px 1px rgba(54, 54, 54, 0.75);
+}
+
+.header {
+    text-align: center;
+}
+
+.charlieHead {
+    font-size: 70px;
+    text-shadow: 1px 1px 1px #4d4d4d;
+    font-family: 'Nunito';
+    font-weight: 700;
+    letter-spacing: 15px;
+    padding: 20px;
+    color: #222;
+    margin-top: -100px;
 }

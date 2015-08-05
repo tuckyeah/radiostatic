@@ -10,12 +10,6 @@ body {
     min-height: 100%;
 }
 
-.nightRoad {
-    background-image: url('../imgs/nightroad1.jpg');
-    background-size: cover;
-    height: 100%;
-}
-
 .stars {
     background-image: url('../imgs/constellation.jpg');
     background-size: cover;
@@ -95,16 +89,6 @@ a:hover {
     text-shadow: 2px 3px 1px rgba(30, 30, 30, 0.5);
 }
 
-.charlieHead {
-    font-size: 70px;
-    font-family: 'Nunito';
-    font-weight: 700;
-    letter-spacing: 15px;
-    padding: 20px;
-    color: rgba(76, 76, 76, 0.2);
-    text-shadow: 1px 1px 1px rgba(240, 240, 240, 0.4), 0px -2px 1px rgba(108, 108, 108, 0.3);
-}
-
 .header {
     text-align: center;
 }
@@ -152,18 +136,47 @@ a:hover {
     margin: 30px auto;
 }
 
+.bcg h1 {
+    padding: 20px;
+}
+
+.bcg#desertRoad {
+    background-image: url('../imgs/desertroad-3.jpg');
+    height: 650px;
+    width: 900px;
+}
+
+.bcg#galaxy {
+    background-image: url('../imgs/stars-spin.jpg');
+    height: 650px;
+    width: 900px;
+}
+
+.bcg#sunset {
+    background-image: url('../imgs/sunset.jpg');
+    height: 650px;
+    width: 900px;
+    background-position: bottom;
+}
+
+.bcg#nightRoad {
+    background-image: url('../imgs/nightroad1.jpg');
+    height: 650px;
+    width: 900px;
+}
+
 .bcg#bed {
     height: 600px;
     background-image: url('../imgs/unmade_bed.jpg');
 }
 
 .bcg#road {
-    background-image: url('../imgs/nightroad2.jpg');
+    background-image: url('../imgs/desertroad-3.jpg');
     background-position: bottom;
     height: 400px;
 }
 
-.bcg#desertRoad {
+.bcg#desert {
     background-image: url('../imgs/desert.jpg');
     height: 500px;
 }
@@ -231,6 +244,10 @@ a:hover {
     letter-spacing: 15px;
     padding: 20px;
     color: #222;
+}
+
+.middle .charlieHead {
+    margin-top: -100px;
 }
 
 .whiteGlow {

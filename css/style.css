@@ -897,6 +897,11 @@ h3 {
     text-shadow: 1px 1px 1px #F0F0F0, 0px -2px 1px #6C6C6C;
 }
 
+.greyInset h1 {
+    font-size: inherit;
+    text-decoration: none;
+}
+
 .greyInset h3 {
     line-height: 60px;
 }
