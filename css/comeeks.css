@@ -166,7 +166,7 @@ td a:hover {
 #night {
     background-image: url('../imgs/CampingVan.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: 16px -50px;
 }
 
 #paper {
@@ -187,7 +187,7 @@ td a:hover {
 }
 
 #galaxy {
-    background-image: url('../imgs/stars-spin.jpg');
+    background-image: url('../imgs/radio-2.jpg');
     background-size: cover;
 }
 
@@ -225,9 +225,9 @@ td a:hover {
 }
 
 .satellites-3 {
-    background-image: url('../imgs/satellites3.jpg');
+    background-image: url('../imgs/satellite1.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: right center;
 }
 
 .desert#one {

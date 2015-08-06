@@ -254,11 +254,6 @@ table td p:nth-child(2) {
 }
 
 .whiteGlow a:hover {
-    text-decoration: none;
-    font-style: italic;
-}
-
-.whiteGlow a:hover {
     color: inherit;
     font-style: normal;
     text-decoration: underline;
@@ -939,8 +934,30 @@ h3 {
 }
 
 .rage {
-    color: #817D80;
+    font-size: 24px;
+    color: rgba(192, 190, 192, 0);
+    text-shadow: 0 0 5px rgba(192, 190, 192, 0.7), 0 0 10px rgba(192, 190, 192, 0.5), 0 0 30px (192, 190, 192, 0.5);
+}
+
+p.rage:hover {
+    color: rgba(192, 190, 192, 1);
     text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+}
+
+h3.rage {
+    font-size: 45px;
+}
+
+.rage a {
+    color: #000 !important;
+    font-weight: 900;
+    text-shadow: 0px 0px 10px #000, 0 0 5px #000, 0 0 20px #000, 0 0 30px #000;
+}
+
+.rage a:hover {
+    color: white !important;
+    text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red !important;
+    text-decoration: none !important;
 }
 
 .preWrapper {
@@ -948,10 +965,75 @@ h3 {
 }
 
 .flames {
-    text-align: center;
     padding: 20px;
     font-size: 36px;
     font-weight: 800;
     color: white;
     text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red;
+    line-height: 50px;
+}
+
+.blurred {
+    font-size: 70px;
+    text-align: center;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: rgba(221, 221, 221, 0);
+    text-shadow: 0px 0px 10px rgba(199, 199, 199, 0.6), 0px 0px 30px rgba(199, 199, 199, 0.4), 0px 0px 50px rgba(199, 199, 199, 0.3), 0px 0px 180px rgba(199, 199, 199, 0.3);
+}
+
+.blurred h1 {
+    font-size: inherit;
+    text-decoration: none;
+}
+
+.blurred h2 {
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.blurred a:hover {
+    font-style: normal;
+    color: #000;
+}
+
+.blackEmboss {
+    color: black;
+    text-shadow: 0px 1px 1px #717171;
+    font-size: 36px;
+}
+
+.blackEmboss p {
+    line-height: 40px;
+}
+
+h1.blackEmboss {
+    font-size: 72px;
+    line-height: 80px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+}
+
+.blackEmboss.bright:hover {
+    color: #FFF !important;
+    text-shadow: 0 0 3px #B8E6B8, 0 0 5px #B2FFFF, 0 0 10px #E6FFE6, 0 0 20px #FFF !important;
+    font-style: normal;
+}
+
+.blackEmboss:hover {
+    color: rgba(192, 190, 192, 1);
+    text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000 !important;
+}
+
+h1.whiteGlow {
+    text-align: center;
+    text-decoration: none;
+}
+
+#brightGlow:hover {
+    text-shadow: 0 0 3px #B8E6B8, 0 0 5px #B2FFFF, 0 0 10px #E6FFE6, 0 0 20px #FFF, 0 0 50px #FFF, 0 0 180px #FFF !important;
+    text-decoration: none !important;
 }
