@@ -106,7 +106,7 @@ td a:hover {
     color: #4e2304;
     margin: 10px auto;
     box-shadow: 2px 3px 0px 0px rgba(33, 28, 28, 0.75);
-    font-family: monospace;
+    font-family: 'Abel', monospace;
 }
 
 .charlie {

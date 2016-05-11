@@ -12,6 +12,7 @@ function randomSize() {
     return Math.round(Math.random() * 2) + 5;
 }
 
+
 function checkColor() {
     if ($('.colorChange').is(':visible')) {
         $('body').animate({
@@ -44,7 +45,7 @@ function addStars() {
 }
 
 
-$(document).ready(function () {
+$(document).ready(function() {
     var n = 0;
     $('.fadeIn').hide();
 
@@ -65,7 +66,6 @@ $(document).ready(function () {
             //if not, fade in next hidden fadeIn element
         } else {
             $('.section-' + n).find('.fadeIn:hidden:first').fadeIn('slow', function () {
-
                 $("html, body").animate({
                     scrollTop: $("body")[0].scrollHeight
                 }, 1000);
