@@ -36,6 +36,7 @@ body {
     text-align: justify;
     font-size: 14px;
     max-height: 100%;
+    line-height: 18px;
 }
 
 .whiteText {
@@ -255,9 +256,10 @@ table td p:nth-child(2) {
 
 .whiteGlow a:hover {
     color: inherit;
-    font-style: normal;
-    text-decoration: underline;
+    font-style: italic;
+/*    text-decoration: underline;*/
     font-weight: inherit;
+    text-shadow: 0 0 10px #B8E6B8, 0 0 15px #B2FFFF, 0 0 20px #E6FFE6;
 }
 
 .pinkBox {
@@ -558,7 +560,6 @@ table td p:nth-child(2) {
     width: 410px;
     position: relative;
     margin-top: 150px;
-    margin-left: 230px;
     padding: 10px;
     font-size: 16px;
     text-shadow: 0 0 10px rgba(255, 255, 255, 1);
@@ -573,11 +574,9 @@ table td p:nth-child(2) {
 
 .moonBackground {
     display: block;
-    position: absolute;
     height: 800px;
-    width: 800px;
-    margin-left: 200px;
-    margin-right: auto;
+    width: 900px;
+    margin: auto;
 }
 
 .moonBackground::after {
@@ -1036,4 +1035,20 @@ h1.whiteGlow {
 #brightGlow:hover {
     text-shadow: 0 0 3px #B8E6B8, 0 0 5px #B2FFFF, 0 0 10px #E6FFE6, 0 0 20px #FFF, 0 0 50px #FFF, 0 0 180px #FFF !important;
     text-decoration: none !important;
+}
+
+.moonBox {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.moonTextBox {
+    height: auto;
+    position: relative;
+    width: 450px;
+    padding-top: 50px;
+    overflow-y: auto;
+    text-align: justify;
+    margin: auto;
 }

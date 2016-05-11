@@ -78,8 +78,8 @@ td a {
 td a:hover {
     text-decoration: none;
     color: inherit;
-    font-style: normal;
-    text-shadow: 0 0 3px #B8E6B8, 0 0 5px #B2FFFF, 0 0 10px #E6FFE6;
+    font-style: italic;
+/*    text-shadow: 0 0 3px #B8E6B8, 0 0 5px #B2FFFF, 0 0 10px #E6FFE6;*/
 }
 /*--------------------INNER TABLE ELEMENTS------------------*/
 
