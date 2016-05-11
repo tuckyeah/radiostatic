@@ -119,6 +119,7 @@ a:hover {
 h1 {
     text-decoration: underline;
     font-size: 50px;
+    line-height: initial;
 }
 
 table td {
@@ -136,7 +137,7 @@ table td p:nth-child(2) {
     font-size: smaller;
 }
 
-#letter {
+.letter {
     background-color: #FCF4E6;
     border: 1px solid #E6B85C;
     border-radius: 10px;
@@ -145,7 +146,7 @@ table td p:nth-child(2) {
     box-shadow: 3px 3px 10px 0px rgba(72, 72, 72, 0.8);
 }
 
-#letter #signature {
+.letter #signature {
     text-align: right;
 }
 
