@@ -86,10 +86,12 @@ a:hover {
     text-shadow: 2px 3px 1px rgba(30, 30, 30, 0.5);
 }
 
-.june h3 {
-    font-family: 'Fredericka the Great';
-    padding: 70px;
-    font-size: 50px;
+h3#voice {
+    padding: 10px 50px;
+    font-size: 60px;
+    line-height: normal;
+    font-weight: 900;
+    font-family:'Roboto Slab';
 }
 
 .content h4 {
@@ -196,6 +198,8 @@ a:hover {
 
 .bcg#bed {
     height: 600px;
+/*This used to be smaller... should I change it back...?*/
+    width: 900px;
     background-image: url('../imgs/unmade_bed.jpg');
 }
 
@@ -321,3 +325,4 @@ a:hover {
 .heavyShadow {
     text-shadow: 4px 4px 0px rgba(20, 20, 20, 0.8), 5px 5px 5px rgba(0, 0, 0, 0.6)
 }
+

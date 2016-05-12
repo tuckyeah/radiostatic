@@ -7,7 +7,7 @@ a {
 a:hover {
     color: black !important;
     font-weight: inherit;
-    text-shadow: 2px 2px 35px #FFF !important;
+    text-shadow: 2px 2px 25px #FFF !important;
 }
 
 body {
