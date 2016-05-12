@@ -158,8 +158,8 @@ a:hover {
     padding: 20px;
 }
 
-.bcg#test {
-    background-image: url('../imgs/desert.jpg');
+.bcg#cloud {
+    background-image: url('../imgs/cloud.jpg');
     height: 650px;
     width: 900px;
 }
@@ -277,8 +277,7 @@ a:hover {
 }
 
 .middle .charlieHead {
-    margin-top: -50px;
-/*    margin-bottom: -25px;*/
+    margin-top: -100px;
 }
 
 .whiteGlow {
