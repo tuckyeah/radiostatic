@@ -1,12 +1,13 @@
 a {
     color: white;
     font-weight: bold;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:hover {
-    color: inherit;
+    color: black !important;
     font-weight: inherit;
+    text-shadow: 2px 2px 35px #FFF !important;
 }
 
 body {
@@ -129,4 +130,10 @@ section.module.parallax h1 {
     padding: 20px;
     color: #222;
     margin-top: -100px;
+}
+
+h1#noShadow {
+    text-shadow: inherit;
+    color: inherit;
+    
 }
