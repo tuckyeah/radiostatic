@@ -59,6 +59,8 @@ $(document).ready(function() {
                     $('.preWrapper').addClass('wrapper');
                     $('.header').hide();
                     addStars();
+                } else if ($('.section-' + n ).hasClass('hideHeader')) {
+                    $('.header').toggle();
                 }
                 $('.section-' + n).find('.fadeIn:first').fadeIn('slow')
             });

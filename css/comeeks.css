@@ -221,7 +221,6 @@ td a:hover {
 .satellites-2 {
     background-image: url('../imgs/nightsatellites2.jpg');
     background-size: cover;
-    background-position: center;
 }
 
 .satellites-3 {
@@ -356,4 +355,25 @@ td a:hover {
     color: #333333;
     border: 1px solid #333333;
     font-family: 'Roboto Slab';
+}
+
+h3#glow {
+    font-size: 150px;
+}
+#glow a:hover {
+    color: rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 15px #FFF, 0 0 20px #B8E6B8, 0 0 25px #B2FFFF, 0 0 30px #E6FFE6, 0 0 40px #d9ffeb, 0 0 50px #d1f7fc ;
+    font-style: normal !important;
+}
+
+.satellites-2#low {
+    background-position: 0px -200px;
+}
+
+.satellites-2#mid {
+    background-position: 0px -130px;
+}
+
+.satellites-2#high {
+    background-position: 0px -15px;
 }
