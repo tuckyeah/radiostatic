@@ -32,7 +32,7 @@ body {
     width: 540px;
     margin: auto;
     padding: 50px;
-    overflow-y: auto;
+    overflow-y: hidden; /*changed from "auto" to fix issue with satellites.html on safari only*/
     text-align: justify;
     font-size: 14px;
     max-height: 100%;
@@ -568,9 +568,10 @@ table td p:nth-child(2) {
 }
 
 #moonText a:hover {
-    color: inherit;
+    color: rgba(0, 0, 0, 0.5);
     font-style: normal;
-    text-decoration: underline;
+    text-decoration: none;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 1), 0 0 15px rgba(255, 255, 255, 0.9), 0 0 20px rgba(255, 255, 255, 0.8)
 }
 
 .moonBackground {
@@ -768,6 +769,9 @@ h3 {
 }
 
 .neontubing span {
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
     animation: neonspark 4s 2s infinite;
     -moz-animation: neonspark 4s 2s infinite;
     -webkit-animation: neonspark 4s 2s infinite;
@@ -780,7 +784,8 @@ h3 {
     letter-spacing: 15px;
 }
 
-<!--flickering barsign keyframe animation--> @keyframes neonspark {
+/*<!--flickering barsign keyframe animation--> */
+@keyframes neonspark {
     0% {
         text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
     }
@@ -816,21 +821,22 @@ h3 {
     }
 }
 
+
 @-moz-keyframes neonspark {
     0% {
-        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+        text-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff2d95, 0 0 60px #ff2d95, 0 0 80px #ff2d95, 0 0 100px #ff2d95, 0 0 150px #ff2d95;
     }
     25% {
-        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95, 0 0 30px rgba(255, 0, 84, 0.6), 0 0 20px rgba(255, 0, 84, 0.8);
+        text-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff2d95, 0 0 60px #ff2d95, 0 0 80px #ff2d95, 0 0 100px #ff2d95, 0 0 150px #ff2d95, 0 0 60px rgba(255, 0, 84, 0.7), 0 0 40px rgba(255, 0, 84, 0.9);
     }
     50% {
-        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95, 0 0 30px rgba(255, 0, 84, 0.7), 0 0 60px rgba(255, 0, 84, 0.5);
+        text-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff2d95, 0 0 60px #ff2d95, 0 0 80px #ff2d95, 0 0 100px #ff2d95, 0 0 150px #ff2d95, 0 0 60px rgba(255, 0, 84, 0.8), 0 0 60px rgba(255, 0, 84, 0.6);
     }
     80% {
-        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95,
+        text-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff2d95, 0 0 60px #ff2d95, 0 0 80px #ff2d95, 0 0 100px #ff2d95, 0 0 150px #ff2d95,
     }
     100% {
-        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95, 0 0 30px rgba(255, 0, 84, 0.7), 0 0 60px rgba(255, 0, 84, 0.5), 0 0 100px rgba(255, 0, 84, 0.4), 0 0 90px rgba(255, 0, 84, 0.9);
+        text-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff2d95, 0 0 60px #ff2d95, 0 0 80px #ff2d95, 0 0 100px #ff2d95, 0 0 150px #ff2d95, 0 0 60px rgba(255, 0, 84, 0.8), 0 0 120px rgba(255, 0, 84, 0.6), 0 0 200px rgba(255, 0, 84, 0.5), 0 0 180px rgba(255, 0, 84, 0.9);
     }
 }
 
