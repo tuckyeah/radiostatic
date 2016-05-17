@@ -746,6 +746,7 @@ h3 {
     margin-right: auto;
     margin-top: 50px;
     text-align: center;
+    padding-bottom: 150px;
 }
 /*neon tubing*/
 
@@ -1061,4 +1062,16 @@ h1.whiteGlow {
     overflow-y: auto;
     text-align: justify;
     margin: auto;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.image {
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    
 }

@@ -148,9 +148,10 @@ td a:hover {
     background-size: cover;
 }
 
-#airstream {
-    background-image: url('../imgs/airstream.jpg');
+#barsign {
+    background-image: url('../imgs/opensign.jpg');
     background-size: cover;
+    background-
 }
 
 #airstream-2 {
@@ -376,4 +377,15 @@ h3#glow {
 
 .satellites-2#high {
     background-position: 0px -15px;
+}
+
+#airstream {
+    background-image: url('../imgs/airstream.jpg');
+    background-size: cover;
+    background-position: 0px -85px;
+}
+
+#pink {
+    background-image: url('../imgs/pinklights.jpg');
+    background-size: cover;
 }
